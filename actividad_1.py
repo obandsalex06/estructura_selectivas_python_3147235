@@ -1,5 +1,6 @@
-tem = 70
-if tem < 80:
+
+tem = int(input("Ingrese la temperatura del motor: "))
+if tem <= 80:
     print ("El motor esta en funcionamiento")
     print ("puede seguir trabajando")
 else:
