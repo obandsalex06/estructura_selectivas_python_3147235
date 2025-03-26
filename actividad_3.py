@@ -85,6 +85,7 @@ if contrato == "a":
     salario_neto = salario_mensual - eps - pension - arl + bonificacion
     print("Salario neto: ", salario_neto)
     
+    
 
 elif contrato == "b":
     print("Eligio contrato a termino indefinido")
